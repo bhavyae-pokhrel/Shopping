@@ -194,7 +194,7 @@ const Home = () => {
           {posts
             .filter((post) => {
             
-              if (search.length < 2) {
+              if (search.length < 4) {
                 return post;
               }
              
